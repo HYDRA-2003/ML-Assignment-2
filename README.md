@@ -63,8 +63,8 @@ The following evaluation metrics were computed for each model:
 | Decision Tree       | 0.8782   | 0.6933 | 0.4785    | 0.4518 | 0.4648   | 0.3963 |
 | KNN                 | 0.8986   | 0.8500 | 0.6257    | 0.3318 | 0.4336   | 0.4070 |
 | Naive Bayes         | 0.8548   | 0.8101 | 0.4059    | 0.5198 | 0.4559   | 0.3774 |
-| Random Forest       | 0.9043   | 0.9224 | 0.6866    | 0.3355 | 0.4507   | 0.4364 |
-| XGBoost             | 0.9061   | 0.9301 | 0.6605    | 0.4064 | 0.5032   | 0.4709 |
+| Random Forest       | 0.9035   | 0.9210 | 0.6788    | 0.3336 | 0.4474   | 0.4317 |
+| XGBoost             | 0.9103   | 0.9344 | 0.6635    | 0.4735 | 0.5526   | 0.5132 |
 
 # 6. Observations on Model Performance
 
@@ -75,7 +75,7 @@ The following evaluation metrics were computed for each model:
 | KNN                 | High accuracy but low recall, showing sensitivity to class imbalance.                                                                    
 | Naive Bayes         | Balanced but moderate performance due to strong feature independence assumptions.                                                        
 | Random Forest       | Improved overall accuracy and AUC, but recall remained low for minority class.                                                           |
-| XGBoost             | Achieved the best overall performance with highest AUC (0.9301) and strong overall performance, providing a good balance between precision and                             recall, making it one of the most reliable models for this task.
+| XGBoost             | Achieved the best overall performance with highest AUC (0.9301) and highest MUC (0.5132) making                           it one of the most reliable models for this task. 
 
 
 
